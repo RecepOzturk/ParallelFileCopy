@@ -4,13 +4,11 @@ As asynchron reading from a file and writing another file with multi threads.
 
 It was published to help students or interested persons with multithread and asynchron i/o.
 
-To compile you have to entire this codes orderly;
+To compile you have to entire this instructions;
 
-gcc -lrt -c main.c -lpthread
+firstly, you should write -make- in terminal, this compiles the main.c for you.
 
-gcc main.o -lrt -o main.out -lpthread
-
-./main.out - - 8 (Put a space between each parameter.)
+Then, ./main.out - - 8 (Put a space between each parameter.). That's all
 
 dash(-) mean; source and destination file will created in currently direction where place in main.c
 
