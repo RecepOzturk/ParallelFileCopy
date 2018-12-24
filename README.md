@@ -7,16 +7,18 @@ It was published to help students or interested persons with multithread and asy
 To compile you have to entire this codes orderly;
 
 gcc -lrt -c main.c -lpthread
+
 gcc main.o -lrt -o main.out -lpthread
+
 ./main.out - - 8 (Put a space between each parameter.)
 
 dash(-) mean; source and destination file will created in currently direction where place in main.c
 
 You will copy the content of source file (source.txt) to a new destination file (destination.txt).
   You will take 3 input parameter in terminal.
-o Source path (- (dash) means same path as executable file)
-o Destination path (- (dash) means same path as executable file)
-o Number of threads
+*Source path (- (dash) means same path as executable file)
+*Destination path (- (dash) means same path as executable file)
+*Number of threads
 
 Source and destination paths can be given as real paths OR as the character (– dash) which means that related txt file will be created under the same path as executable file.
 I were defined a function to prepare a source file randomly. The content of the source file must be readable. Source file is created in main thread.
