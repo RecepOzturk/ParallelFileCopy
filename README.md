@@ -1,5 +1,7 @@
 # ParallelFileCopy
 
+[screen](https://user-images.githubusercontent.com/19827096/50400808-b2584c80-079a-11e9-8e81-7cb1130e529c.JPG)
+
 As asynchron reading from a file and writing another file with multi threads.
 
 It was published to help students or interested persons with multithread and asynchron i/o.
@@ -29,7 +31,6 @@ o 2nd thread should copy from source.txt to destination.txt second 2 bytes >cd
 
 But 4 thread and source file as 10 byte?
 Then first 3 thread has 2 byte each one, last thread has 4 byte. Or 6 thread 50 byte, first 5 thread has 8 byte and last thread has 10 bute.
-
 
 
 
